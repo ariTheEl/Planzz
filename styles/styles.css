@@ -1,0 +1,128 @@
+@font-face {
+    font-family:PFD ;
+    src: url(/styles/Playfair_Display/static/PlayfairDisplay-Bold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: pfd;
+}
+.navbar{
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items:end;
+    padding: 15px 40px;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #730217;
+    border-style:solid;
+    border-width: 6px;
+    border-color: #d9ab73;
+    cursor: pointer;
+    transition: 1s all ease-in-out;
+}
+.circle:hover{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #d9ab73;
+    border-style:solid;
+    border-width: 6px;
+    border-color: #730217;
+}
+
+.nav-list{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    gap: 10px;
+}
+
+.signin{
+    display: flex;
+    gap: 20px;
+    padding-top: 0px;
+}
+.signin a{
+    text-decoration: none;
+    color:#730217;
+    padding-top: 10px;
+}
+.signin button {
+    background: #730217;
+    outline: none;
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 40px;
+    font-size: 1.2rem;
+    line-height: 8px;
+    transition: 1s all ease-in-out;
+}
+.signin button a{
+    color: #d9ab73;
+    padding: 0;
+    transition: 1s all ease-in-out;
+}
+.signin button a:hover{
+    background: #d9ab73;
+    color: #730217;
+    outline: none;
+    text-transform: uppercase;
+}
+ .signin button:hover{
+    background: #d9ab73;
+    color: #730217;
+    outline: none;
+    filter: drop-shadow(3px 3px 1px black);
+    text-transform: uppercase;
+ }
+
+.body{
+    height: calc(90vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 2rem;
+}
+.body h1{
+    font-size: 3rem;
+    text-align: center;
+    filter: drop-shadow(2px -2px 3px #730217);
+    padding-bottom: 30px;
+}
+.body p{
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 4rem;
+}
+.body a button{
+    background: #730217;
+    outline: none;
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 40px;
+    font-size: 1.2rem;
+    line-height: 8px;
+    color: #d9ab73;
+    cursor: pointer;
+    transition: 1s all ease-in-out;
+}
+.body a button:hover{
+    background: #d9ab73;
+    color: #730217;
+    outline: none;
+    filter: drop-shadow(3px 3px 1px black);
+    text-transform: uppercase;
+}
